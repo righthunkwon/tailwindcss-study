@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tailwindcss</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- 
         https://tailwindcss.com/docs/font-family
-            font-sans
-            font-serif
-            font-mono
+
+        font-sans
+        font-serif
+        font-mono
+
     -->
 
     <!-- 
         https://tailwindcss.com/docs/font-size
+
         text-xs	    font-size: 0.75rem; /* 12px */
                     line-height: 1rem; /* 16px */
         text-sm	    font-size: 0.875rem; /* 14px */
@@ -30,26 +33,25 @@
         text-2xl	font-size: 1.5rem; /* 24px */
                     line-height: 2rem; /* 32px */
         ...
+
     -->
+
     <div class="space-y-5">
-        <div class="p-3 bg-white shadow rounded-lg">
+      <!-- font 1 -->
+      <div class="p-3 bg-white shadow rounded-lg">
         <h3 class="text-xs border-b">font-sans</h3>
-        <p class="font-sans">
-            The quick brown fox jumps over the lazy dog.
-        </p>
-        </div>
-        <div class="p-3 bg-white shadow rounded-lg">
+        <p class="font-sans">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <!-- font 2 -->
+      <div class="p-3 bg-white shadow rounded-lg">
         <h3 class="text-xs border-b">font-serif</h3>
-        <p class="font-serif">
-            The quick brown fox jumps over the lazy dog.
-        </p>
-        </div>
-        <div class="p-3 bg-white shadow rounded-lg">
+        <p class="font-serif">The quick brown fox jumps over the lazy dog.</p>
+      </div>
+      <!-- font 3 -->
+      <div class="p-3 bg-white shadow rounded-lg">
         <h3 class="text-xs border-b">font-mono</h3>
-        <p class="font-mono">
-            The quick brown fox jumps over the lazy dog.
-        </p>
-        </div>
+        <p class="font-mono">The quick brown fox jumps over the lazy dog.</p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
